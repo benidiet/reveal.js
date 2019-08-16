@@ -4408,6 +4408,9 @@
 		}
 
 		if( !slide && currentSlide ) {
+			if ( isVerticalSlide( currentSlide ) === false) {
+				v = undefined;
+			}
 			var hasFragments = currentSlide.querySelectorAll( '.fragment' ).length > 0;
 			if( hasFragments ) {
 				var currentFragment = currentSlide.querySelector( '.current-fragment' );
