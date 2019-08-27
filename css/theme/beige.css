@@ -257,6 +257,8 @@ body {
 .reveal .controls {
   color: #8b743d; }
 
+.reveal .slide-number {
+  color: #8b743d; }
 /*********************************************
  * PROGRESS BAR
  *********************************************/
